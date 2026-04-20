@@ -1,0 +1,24 @@
+:root {
+  color-scheme: dark;
+  font-family: Inter, system-ui, sans-serif;
+  background: #0d0d1a;
+  color: #e2e8f0;
+}
+body { margin: 0; background: #0d0d1a; }
+* { box-sizing: border-box; }
+button, select { background: #1a1a2e; color: #e2e8f0; border: 1px solid #334155; padding: 0.6rem 0.8rem; border-radius: 10px; }
+.app-shell { padding: 20px; display: grid; gap: 16px; }
+.card { background: #1a1a2e; border: 1px solid #273449; border-radius: 16px; padding: 16px; }
+.grid.two { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.grid.three { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+.row { display: flex; align-items: center; }
+.between { justify-content: space-between; }
+.gap-sm { gap: 8px; }
+.gap-lg { gap: 20px; }
+.stack { display: grid; gap: 16px; }
+.kpi { font-size: 2rem; font-weight: 700; }
+.list { margin: 0; padding-left: 1.2rem; }
+.healthy { outline: 1px solid #16a34a; }
+.warning { outline: 1px solid #ca8a04; }
+.critical { outline: 1px solid #dc2626; }
+pre { white-space: pre-wrap; word-break: break-word; }
